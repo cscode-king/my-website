@@ -1,0 +1,152 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700);
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+body {
+    min-height: 100vh !important;
+    background-color: rgb(220, 214, 214);
+}
+html{
+    scroll-behavior: smooth;
+
+}
+
+#me1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background: white;
+}
+header{
+    background-color:rgb(220, 214, 214);;
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-top: 30px;
+    height: 60px;
+    
+
+}
+
+nav{
+    background-color: white;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    margin-top: 2%;
+    margin-left: 32%;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.logo{
+    width: 3%;
+    margin-top: 2%;
+    margin-right: 100px;
+    margin-left: 0px;
+
+}
+
+.name{
+    width: 100%;
+    display: flex;
+    color:rgb(27, 27, 81);
+    margin-top: 2%;
+    font-size: 1.5em;
+    font-family: 'comfortaa', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.logo, .name {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding: 0;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: rgb(27, 27, 81);
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a.current{
+    color: rgb(0, 140, 255);
+}
+
+.portfolio{
+    background: rgb(220, 214, 214);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+
+
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 84px;
+    border-radius: 25px;
+    background-color:rgb(220, 214, 214);
+    color: black;
+    border: 1px solid rgb(124, 124, 151);
+    box-shadow: inset 0 0 10px #000000;
+    box-sizing: border-box;
+}
+.project h2{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(27, 27, 81);
+    font-size: 2em;
+    font-family: 'comfortaa', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.project h3{
+    margin-left: 55px;
+    color: rgb(27, 27, 81);
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+.project p{
+    margin-left: 55px;
+    color: rgb(27, 27, 81);
+    font-size: 1.5em;
+    letter-spacing: 1px;
+}
+.project h2,
+.project p {
+    margin: 10px;
+}
+
+#website{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 20px;
+    border: 4px solid rgb(27, 27, 81);
+}
+
+.photocontainer{
+    display: flex;
+    justify-content: center;
+}
